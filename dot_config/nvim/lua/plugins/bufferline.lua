@@ -8,7 +8,7 @@ return {
   config = function ()
     local bufferline = require("bufferline")
     local mocha = require("catppuccin.palettes").get_palette("mocha")
-    require("bufferline").setup({
+    bufferline.setup({
       highlights = require("catppuccin.groups.integrations.bufferline").get({
         styles = { "italic", "bold" },
         custom = {
