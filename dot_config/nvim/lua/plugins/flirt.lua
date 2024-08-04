@@ -1,5 +1,8 @@
+-- return {
+-- 	"tamton-aquib/flirt.nvim",
+-- 	config = function()
+-- 	end,
+-- }
 return {
-  "tamton-aquib/flirt.nvim",
-  config = function ()
-  end
+
 }

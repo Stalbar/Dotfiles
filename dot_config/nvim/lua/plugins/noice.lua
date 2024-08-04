@@ -5,7 +5,7 @@ return {
     "MunifTanjim/nui.nvim",
     "rcarriga/nvim-notify",
   },
-  config = function ()
+  config = function()
     require("noice").setup({
       lsp = {
         override = {
@@ -45,7 +45,7 @@ return {
             winhighlight = { Normal = "Normal", FloatBorder = "FloatBorder" },
           },
         },
-      }
+      },
     })
-  end 
+  end,
 }

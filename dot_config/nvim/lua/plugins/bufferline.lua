@@ -37,9 +37,8 @@ return {
           local icon = level:match("error") and " " or " "
           return " " .. icon .. count
         end,
-        separator_style = "slope"
+        separator_style = "slope",
       },
-
     })
     vim.keymap.set("n", "<TAB>", ":BufferLineCycleNext<CR>", { desc = "Go to left buffer" })
     vim.keymap.set("n", "<S-TAB>", ":BufferLineCyclePrev<CR>", { desc = "Go to right buffer" })
